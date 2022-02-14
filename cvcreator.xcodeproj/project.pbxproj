@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FBB914D27BAE9DB00532EB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBB914C27BAE9DB00532EB8 /* AppDelegate.swift */; };
+		0FBB914F27BAE9DB00532EB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBB914E27BAE9DB00532EB8 /* SceneDelegate.swift */; };
+		0FBB915127BAE9DB00532EB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBB915027BAE9DB00532EB8 /* ViewController.swift */; };
+		0FBB915427BAE9DB00532EB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FBB915227BAE9DB00532EB8 /* Main.storyboard */; };
+		0FBB915627BAE9DE00532EB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FBB915527BAE9DE00532EB8 /* Assets.xcassets */; };
+		0FBB915927BAE9DE00532EB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FBB915727BAE9DE00532EB8 /* LaunchScreen.storyboard */; };
+		0FBB916427BAE9DE00532EB8 /* cvcreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBB916327BAE9DE00532EB8 /* cvcreatorTests.swift */; };
+		0FBB916F27BAE9DE00532EB8 /* cvcreatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBB916E27BAE9DE00532EB8 /* cvcreatorUITests.swift */; };
+		370CF32D74F481A36717D2D3 /* Pods_cvcreator_cvcreatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E4B8F6C3B2845345B15051 /* Pods_cvcreator_cvcreatorUITests.framework */; };
+		98E30A53AEE7D5921129C5AB /* Pods_cvcreatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B5BD6806D7E9FF96308530 /* Pods_cvcreatorTests.framework */; };
+		EA0EEF8E3CB805A4F27685BC /* Pods_cvcreator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607BA9C574D892B2E7360D64 /* Pods_cvcreator.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FBB916027BAE9DE00532EB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FBB914127BAE9DB00532EB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FBB914827BAE9DB00532EB8;
+			remoteInfo = cvcreator;
+		};
+		0FBB916B27BAE9DE00532EB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FBB914127BAE9DB00532EB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FBB914827BAE9DB00532EB8;
+			remoteInfo = cvcreator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FBB914927BAE9DB00532EB8 /* cvcreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cvcreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FBB914C27BAE9DB00532EB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0FBB914E27BAE9DB00532EB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0FBB915027BAE9DB00532EB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0FBB915327BAE9DB00532EB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0FBB915527BAE9DE00532EB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FBB915827BAE9DE00532EB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0FBB915A27BAE9DE00532EB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FBB915F27BAE9DE00532EB8 /* cvcreatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cvcreatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FBB916327BAE9DE00532EB8 /* cvcreatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cvcreatorTests.swift; sourceTree = "<group>"; };
+		0FBB916527BAE9DE00532EB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FBB916A27BAE9DE00532EB8 /* cvcreatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cvcreatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FBB916E27BAE9DE00532EB8 /* cvcreatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cvcreatorUITests.swift; sourceTree = "<group>"; };
+		0FBB917027BAE9DE00532EB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53E4B8F6C3B2845345B15051 /* Pods_cvcreator_cvcreatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cvcreator_cvcreatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		552EC618F4CDEA72D6974FDB /* Pods-cvcreator-cvcreatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cvcreator-cvcreatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-cvcreator-cvcreatorUITests/Pods-cvcreator-cvcreatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		607BA9C574D892B2E7360D64 /* Pods_cvcreator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cvcreator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		850F9DF4FC9373C6F13BE215 /* Pods-cvcreatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cvcreatorTests.release.xcconfig"; path = "Target Support Files/Pods-cvcreatorTests/Pods-cvcreatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		AEB77D116919A10C2284CFB2 /* Pods-cvcreator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cvcreator.release.xcconfig"; path = "Target Support Files/Pods-cvcreator/Pods-cvcreator.release.xcconfig"; sourceTree = "<group>"; };
+		C1C6E692DE6FBABAE493A7BF /* Pods-cvcreator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cvcreator.debug.xcconfig"; path = "Target Support Files/Pods-cvcreator/Pods-cvcreator.debug.xcconfig"; sourceTree = "<group>"; };
+		C25F080D1C22E9ECEFBC7469 /* Pods-cvcreator-cvcreatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cvcreator-cvcreatorUITests.release.xcconfig"; path = "Target Support Files/Pods-cvcreator-cvcreatorUITests/Pods-cvcreator-cvcreatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F4B5BD6806D7E9FF96308530 /* Pods_cvcreatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cvcreatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B63398DC987DBD0A056F19 /* Pods-cvcreatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cvcreatorTests.debug.xcconfig"; path = "Target Support Files/Pods-cvcreatorTests/Pods-cvcreatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FBB914627BAE9DB00532EB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0EEF8E3CB805A4F27685BC /* Pods_cvcreator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FBB915C27BAE9DE00532EB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E30A53AEE7D5921129C5AB /* Pods_cvcreatorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FBB916727BAE9DE00532EB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370CF32D74F481A36717D2D3 /* Pods_cvcreator_cvcreatorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FBB914027BAE9DB00532EB8 = {
+			isa = PBXGroup;
+			children = (
+				0FBB914B27BAE9DB00532EB8 /* cvcreator */,
+				0FBB916227BAE9DE00532EB8 /* cvcreatorTests */,
+				0FBB916D27BAE9DE00532EB8 /* cvcreatorUITests */,
+				0FBB914A27BAE9DB00532EB8 /* Products */,
+				134C6888FDF409697F5D43CE /* Pods */,
+				F23A450B4342315821180E13 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0FBB914A27BAE9DB00532EB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FBB914927BAE9DB00532EB8 /* cvcreator.app */,
+				0FBB915F27BAE9DE00532EB8 /* cvcreatorTests.xctest */,
+				0FBB916A27BAE9DE00532EB8 /* cvcreatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FBB914B27BAE9DB00532EB8 /* cvcreator */ = {
+			isa = PBXGroup;
+			children = (
+				0FBB914C27BAE9DB00532EB8 /* AppDelegate.swift */,
+				0FBB914E27BAE9DB00532EB8 /* SceneDelegate.swift */,
+				0FBB915027BAE9DB00532EB8 /* ViewController.swift */,
+				0FBB915227BAE9DB00532EB8 /* Main.storyboard */,
+				0FBB915527BAE9DE00532EB8 /* Assets.xcassets */,
+				0FBB915727BAE9DE00532EB8 /* LaunchScreen.storyboard */,
+				0FBB915A27BAE9DE00532EB8 /* Info.plist */,
+			);
+			path = cvcreator;
+			sourceTree = "<group>";
+		};
+		0FBB916227BAE9DE00532EB8 /* cvcreatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				0FBB916327BAE9DE00532EB8 /* cvcreatorTests.swift */,
+				0FBB916527BAE9DE00532EB8 /* Info.plist */,
+			);
+			path = cvcreatorTests;
+			sourceTree = "<group>";
+		};
+		0FBB916D27BAE9DE00532EB8 /* cvcreatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0FBB916E27BAE9DE00532EB8 /* cvcreatorUITests.swift */,
+				0FBB917027BAE9DE00532EB8 /* Info.plist */,
+			);
+			path = cvcreatorUITests;
+			sourceTree = "<group>";
+		};
+		134C6888FDF409697F5D43CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1C6E692DE6FBABAE493A7BF /* Pods-cvcreator.debug.xcconfig */,
+				AEB77D116919A10C2284CFB2 /* Pods-cvcreator.release.xcconfig */,
+				552EC618F4CDEA72D6974FDB /* Pods-cvcreator-cvcreatorUITests.debug.xcconfig */,
+				C25F080D1C22E9ECEFBC7469 /* Pods-cvcreator-cvcreatorUITests.release.xcconfig */,
+				F8B63398DC987DBD0A056F19 /* Pods-cvcreatorTests.debug.xcconfig */,
+				850F9DF4FC9373C6F13BE215 /* Pods-cvcreatorTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F23A450B4342315821180E13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				607BA9C574D892B2E7360D64 /* Pods_cvcreator.framework */,
+				53E4B8F6C3B2845345B15051 /* Pods_cvcreator_cvcreatorUITests.framework */,
+				F4B5BD6806D7E9FF96308530 /* Pods_cvcreatorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FBB914827BAE9DB00532EB8 /* cvcreator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FBB917327BAE9DE00532EB8 /* Build configuration list for PBXNativeTarget "cvcreator" */;
+			buildPhases = (
+				B99CB3F05A2FB7EE7342E377 /* [CP] Check Pods Manifest.lock */,
+				0FBB914527BAE9DB00532EB8 /* Sources */,
+				0FBB914627BAE9DB00532EB8 /* Frameworks */,
+				0FBB914727BAE9DB00532EB8 /* Resources */,
+				660B2CA319AE9AE1E7DDFB5E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cvcreator;
+			productName = cvcreator;
+			productReference = 0FBB914927BAE9DB00532EB8 /* cvcreator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0FBB915E27BAE9DE00532EB8 /* cvcreatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FBB917627BAE9DE00532EB8 /* Build configuration list for PBXNativeTarget "cvcreatorTests" */;
+			buildPhases = (
+				D8012F13C1147BD96C86529C /* [CP] Check Pods Manifest.lock */,
+				0FBB915B27BAE9DE00532EB8 /* Sources */,
+				0FBB915C27BAE9DE00532EB8 /* Frameworks */,
+				0FBB915D27BAE9DE00532EB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FBB916127BAE9DE00532EB8 /* PBXTargetDependency */,
+			);
+			name = cvcreatorTests;
+			productName = cvcreatorTests;
+			productReference = 0FBB915F27BAE9DE00532EB8 /* cvcreatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0FBB916927BAE9DE00532EB8 /* cvcreatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FBB917927BAE9DE00532EB8 /* Build configuration list for PBXNativeTarget "cvcreatorUITests" */;
+			buildPhases = (
+				54F515F8061A7EEC5317F45A /* [CP] Check Pods Manifest.lock */,
+				0FBB916627BAE9DE00532EB8 /* Sources */,
+				0FBB916727BAE9DE00532EB8 /* Frameworks */,
+				0FBB916827BAE9DE00532EB8 /* Resources */,
+				269DE51D7C51AFA5B6E5AF2A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FBB916C27BAE9DE00532EB8 /* PBXTargetDependency */,
+			);
+			name = cvcreatorUITests;
+			productName = cvcreatorUITests;
+			productReference = 0FBB916A27BAE9DE00532EB8 /* cvcreatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FBB914127BAE9DB00532EB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					0FBB914827BAE9DB00532EB8 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					0FBB915E27BAE9DE00532EB8 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 0FBB914827BAE9DB00532EB8;
+					};
+					0FBB916927BAE9DE00532EB8 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 0FBB914827BAE9DB00532EB8;
+					};
+				};
+			};
+			buildConfigurationList = 0FBB914427BAE9DB00532EB8 /* Build configuration list for PBXProject "cvcreator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FBB914027BAE9DB00532EB8;
+			productRefGroup = 0FBB914A27BAE9DB00532EB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FBB914827BAE9DB00532EB8 /* cvcreator */,
+				0FBB915E27BAE9DE00532EB8 /* cvcreatorTests */,
+				0FBB916927BAE9DE00532EB8 /* cvcreatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FBB914727BAE9DB00532EB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBB915927BAE9DE00532EB8 /* LaunchScreen.storyboard in Resources */,
+				0FBB915627BAE9DE00532EB8 /* Assets.xcassets in Resources */,
+				0FBB915427BAE9DB00532EB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FBB915D27BAE9DE00532EB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FBB916827BAE9DE00532EB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		269DE51D7C51AFA5B6E5AF2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cvcreator-cvcreatorUITests/Pods-cvcreator-cvcreatorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cvcreator-cvcreatorUITests/Pods-cvcreator-cvcreatorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cvcreator-cvcreatorUITests/Pods-cvcreator-cvcreatorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54F515F8061A7EEC5317F45A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cvcreator-cvcreatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		660B2CA319AE9AE1E7DDFB5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cvcreator/Pods-cvcreator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cvcreator/Pods-cvcreator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cvcreator/Pods-cvcreator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B99CB3F05A2FB7EE7342E377 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cvcreator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8012F13C1147BD96C86529C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cvcreatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FBB914527BAE9DB00532EB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBB915127BAE9DB00532EB8 /* ViewController.swift in Sources */,
+				0FBB914D27BAE9DB00532EB8 /* AppDelegate.swift in Sources */,
+				0FBB914F27BAE9DB00532EB8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FBB915B27BAE9DE00532EB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBB916427BAE9DE00532EB8 /* cvcreatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FBB916627BAE9DE00532EB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBB916F27BAE9DE00532EB8 /* cvcreatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FBB916127BAE9DE00532EB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FBB914827BAE9DB00532EB8 /* cvcreator */;
+			targetProxy = 0FBB916027BAE9DE00532EB8 /* PBXContainerItemProxy */;
+		};
+		0FBB916C27BAE9DE00532EB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FBB914827BAE9DB00532EB8 /* cvcreator */;
+			targetProxy = 0FBB916B27BAE9DE00532EB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0FBB915227BAE9DB00532EB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FBB915327BAE9DB00532EB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0FBB915727BAE9DE00532EB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FBB915827BAE9DE00532EB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FBB917127BAE9DE00532EB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0FBB917227BAE9DE00532EB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FBB917427BAE9DE00532EB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1C6E692DE6FBABAE493A7BF /* Pods-cvcreator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2CXQAZL4J;
+				INFOPLIST_FILE = cvcreator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mira.cvcreator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0FBB917527BAE9DE00532EB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEB77D116919A10C2284CFB2 /* Pods-cvcreator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2CXQAZL4J;
+				INFOPLIST_FILE = cvcreator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mira.cvcreator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0FBB917727BAE9DE00532EB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8B63398DC987DBD0A056F19 /* Pods-cvcreatorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2CXQAZL4J;
+				INFOPLIST_FILE = cvcreatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mira.cvcreatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cvcreator.app/cvcreator";
+			};
+			name = Debug;
+		};
+		0FBB917827BAE9DE00532EB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 850F9DF4FC9373C6F13BE215 /* Pods-cvcreatorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2CXQAZL4J;
+				INFOPLIST_FILE = cvcreatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mira.cvcreatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cvcreator.app/cvcreator";
+			};
+			name = Release;
+		};
+		0FBB917A27BAE9DE00532EB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 552EC618F4CDEA72D6974FDB /* Pods-cvcreator-cvcreatorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2CXQAZL4J;
+				INFOPLIST_FILE = cvcreatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mira.cvcreatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cvcreator;
+			};
+			name = Debug;
+		};
+		0FBB917B27BAE9DE00532EB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C25F080D1C22E9ECEFBC7469 /* Pods-cvcreator-cvcreatorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2CXQAZL4J;
+				INFOPLIST_FILE = cvcreatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mira.cvcreatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cvcreator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FBB914427BAE9DB00532EB8 /* Build configuration list for PBXProject "cvcreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FBB917127BAE9DE00532EB8 /* Debug */,
+				0FBB917227BAE9DE00532EB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FBB917327BAE9DE00532EB8 /* Build configuration list for PBXNativeTarget "cvcreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FBB917427BAE9DE00532EB8 /* Debug */,
+				0FBB917527BAE9DE00532EB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FBB917627BAE9DE00532EB8 /* Build configuration list for PBXNativeTarget "cvcreatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FBB917727BAE9DE00532EB8 /* Debug */,
+				0FBB917827BAE9DE00532EB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FBB917927BAE9DE00532EB8 /* Build configuration list for PBXNativeTarget "cvcreatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FBB917A27BAE9DE00532EB8 /* Debug */,
+				0FBB917B27BAE9DE00532EB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FBB914127BAE9DB00532EB8 /* Project object */;
+}
