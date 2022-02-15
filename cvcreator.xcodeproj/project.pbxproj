@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,8 @@
 		0FBB915927BAE9DE00532EB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FBB915727BAE9DE00532EB8 /* LaunchScreen.storyboard */; };
 		0FBB916427BAE9DE00532EB8 /* cvcreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBB916327BAE9DE00532EB8 /* cvcreatorTests.swift */; };
 		0FBB916F27BAE9DE00532EB8 /* cvcreatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBB916E27BAE9DE00532EB8 /* cvcreatorUITests.swift */; };
+		0FD74A3327BC28D60052F6CD /* CVModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD74A3227BC28D60052F6CD /* CVModel.swift */; };
+		0FD74A3627BC2B560052F6CD /* UserDefaultService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD74A3527BC2B560052F6CD /* UserDefaultService.swift */; };
 		370CF32D74F481A36717D2D3 /* Pods_cvcreator_cvcreatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E4B8F6C3B2845345B15051 /* Pods_cvcreator_cvcreatorUITests.framework */; };
 		98E30A53AEE7D5921129C5AB /* Pods_cvcreatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B5BD6806D7E9FF96308530 /* Pods_cvcreatorTests.framework */; };
 		EA0EEF8E3CB805A4F27685BC /* Pods_cvcreator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607BA9C574D892B2E7360D64 /* Pods_cvcreator.framework */; };
@@ -52,6 +54,8 @@
 		0FBB916A27BAE9DE00532EB8 /* cvcreatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cvcreatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBB916E27BAE9DE00532EB8 /* cvcreatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cvcreatorUITests.swift; sourceTree = "<group>"; };
 		0FBB917027BAE9DE00532EB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FD74A3227BC28D60052F6CD /* CVModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVModel.swift; sourceTree = "<group>"; };
+		0FD74A3527BC2B560052F6CD /* UserDefaultService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultService.swift; sourceTree = "<group>"; };
 		53E4B8F6C3B2845345B15051 /* Pods_cvcreator_cvcreatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cvcreator_cvcreatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		552EC618F4CDEA72D6974FDB /* Pods-cvcreator-cvcreatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cvcreator-cvcreatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-cvcreator-cvcreatorUITests/Pods-cvcreator-cvcreatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		607BA9C574D892B2E7360D64 /* Pods_cvcreator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cvcreator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +120,10 @@
 		0FBB914B27BAE9DB00532EB8 /* cvcreator */ = {
 			isa = PBXGroup;
 			children = (
+				0FD74A3427BC2B460052F6CD /* Service */,
+				0FD74A3127BC28C80052F6CD /* model */,
+				0FD74A3027BC28B00052F6CD /* cvdetail */,
+				0FD74A2F27BC28900052F6CD /* cvlist */,
 				0FBB914C27BAE9DB00532EB8 /* AppDelegate.swift */,
 				0FBB914E27BAE9DB00532EB8 /* SceneDelegate.swift */,
 				0FBB915027BAE9DB00532EB8 /* ViewController.swift */,
@@ -145,6 +153,36 @@
 			path = cvcreatorUITests;
 			sourceTree = "<group>";
 		};
+		0FD74A2F27BC28900052F6CD /* cvlist */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cvlist;
+			sourceTree = "<group>";
+		};
+		0FD74A3027BC28B00052F6CD /* cvdetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cvdetail;
+			sourceTree = "<group>";
+		};
+		0FD74A3127BC28C80052F6CD /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0FD74A3227BC28D60052F6CD /* CVModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		0FD74A3427BC2B460052F6CD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0FD74A3527BC2B560052F6CD /* UserDefaultService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		134C6888FDF409697F5D43CE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +193,6 @@
 				F8B63398DC987DBD0A056F19 /* Pods-cvcreatorTests.debug.xcconfig */,
 				850F9DF4FC9373C6F13BE215 /* Pods-cvcreatorTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -409,6 +446,8 @@
 			files = (
 				0FBB915127BAE9DB00532EB8 /* ViewController.swift in Sources */,
 				0FBB914D27BAE9DB00532EB8 /* AppDelegate.swift in Sources */,
+				0FD74A3327BC28D60052F6CD /* CVModel.swift in Sources */,
+				0FD74A3627BC2B560052F6CD /* UserDefaultService.swift in Sources */,
 				0FBB914F27BAE9DB00532EB8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
