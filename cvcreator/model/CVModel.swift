@@ -3,6 +3,7 @@ import Foundation
 typealias Codable = Encodable & Decodable
 struct CVModel: Codable {
     var id: Int
+    var name: String
     var photo: String
     var mobileNo: String
     var email: String

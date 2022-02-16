@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeaderView" customModule="cvcreator" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="64"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Header" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K80-lh-fHF">
+                    <rect key="frame" x="16" y="16" width="334" height="32"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Xy-mk-KQW">
+                    <rect key="frame" x="366" y="16" width="32" height="32"/>
+                    <state key="normal" title="Edit">
+                        <color key="titleColor" name="AccentColor"/>
+                    </state>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="8Xy-mk-KQW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="A6E-71-aGx"/>
+                <constraint firstAttribute="trailing" secondItem="K80-lh-fHF" secondAttribute="trailing" constant="64" id="AXB-GV-FPb"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="8Xy-mk-KQW" secondAttribute="bottom" constant="16" id="GVQ-uX-9by"/>
+                <constraint firstItem="8Xy-mk-KQW" firstAttribute="leading" secondItem="K80-lh-fHF" secondAttribute="trailing" constant="16" id="OJK-7v-jXU"/>
+                <constraint firstItem="K80-lh-fHF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="Qz9-rA-0ax"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="K80-lh-fHF" secondAttribute="bottom" constant="16" id="eYT-nt-QlY"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="8Xy-mk-KQW" secondAttribute="trailing" constant="16" id="mRA-FZ-BSq"/>
+                <constraint firstItem="K80-lh-fHF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="yJI-F9-eEn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="editButton" destination="8Xy-mk-KQW" id="63U-Ob-73k"/>
+                <outlet property="title" destination="K80-lh-fHF" id="0HH-va-3nl"/>
+            </connections>
+            <point key="canvasLocation" x="-82.608695652173921" y="77.678571428571431"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

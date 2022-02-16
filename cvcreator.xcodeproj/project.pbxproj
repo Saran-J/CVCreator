@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FADC72F27BD67B500940BC3 /* CVDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FADC72E27BD67B500940BC3 /* CVDetailViewController.swift */; };
+		0FADC73127BD67D300940BC3 /* CVDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FADC73027BD67D300940BC3 /* CVDetail.storyboard */; };
+		0FADC73527BD688500940BC3 /* CVImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FADC73427BD688500940BC3 /* CVImageCell.swift */; };
+		0FADC73727BD719800940BC3 /* CVInformationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FADC73627BD719800940BC3 /* CVInformationCell.swift */; };
+		0FADC73927BD71B400940BC3 /* CVWorkExperienceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FADC73827BD71B400940BC3 /* CVWorkExperienceCell.swift */; };
+		0FADC73B27BD71C600940BC3 /* CVEducationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FADC73A27BD71C600940BC3 /* CVEducationCell.swift */; };
+		0FADC73D27BD71DF00940BC3 /* CVProjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FADC73C27BD71DF00940BC3 /* CVProjectCell.swift */; };
+		0FADC73F27BD73BB00940BC3 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FADC73E27BD73BB00940BC3 /* HeaderView.swift */; };
+		0FADC74127BD73DB00940BC3 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FADC74027BD73DB00940BC3 /* HeaderView.xib */; };
 		0FBB914D27BAE9DB00532EB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBB914C27BAE9DB00532EB8 /* AppDelegate.swift */; };
 		0FBB914F27BAE9DB00532EB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBB914E27BAE9DB00532EB8 /* SceneDelegate.swift */; };
 		0FBB915127BAE9DB00532EB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBB915027BAE9DB00532EB8 /* ViewController.swift */; };
@@ -17,6 +26,13 @@
 		0FBB916F27BAE9DE00532EB8 /* cvcreatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBB916E27BAE9DE00532EB8 /* cvcreatorUITests.swift */; };
 		0FD74A3327BC28D60052F6CD /* CVModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD74A3227BC28D60052F6CD /* CVModel.swift */; };
 		0FD74A3627BC2B560052F6CD /* UserDefaultService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD74A3527BC2B560052F6CD /* UserDefaultService.swift */; };
+		0FD74A3A27BC310C0052F6CD /* CVList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD74A3927BC310C0052F6CD /* CVList.storyboard */; };
+		0FD74A3C27BC34990052F6CD /* CVListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD74A3B27BC34990052F6CD /* CVListViewController.swift */; };
+		0FD74A3E27BC368E0052F6CD /* CVListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD74A3D27BC368E0052F6CD /* CVListViewModel.swift */; };
+		0FD74A4027BC37B50052F6CD /* CVListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD74A3F27BC37B50052F6CD /* CVListModel.swift */; };
+		0FE2AB0C27BC398100FD202B /* CommonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE2AB0B27BC398100FD202B /* CommonExtension.swift */; };
+		0FE2AB0E27BC3BEF00FD202B /* CVListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE2AB0D27BC3BEF00FD202B /* CVListCell.swift */; };
+		0FE2AB1027BC3E4600FD202B /* CVListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE2AB0F27BC3E4600FD202B /* CVListRouter.swift */; };
 		370CF32D74F481A36717D2D3 /* Pods_cvcreator_cvcreatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E4B8F6C3B2845345B15051 /* Pods_cvcreator_cvcreatorUITests.framework */; };
 		98E30A53AEE7D5921129C5AB /* Pods_cvcreatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B5BD6806D7E9FF96308530 /* Pods_cvcreatorTests.framework */; };
 		EA0EEF8E3CB805A4F27685BC /* Pods_cvcreator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607BA9C574D892B2E7360D64 /* Pods_cvcreator.framework */; };
@@ -40,6 +56,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FADC72E27BD67B500940BC3 /* CVDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVDetailViewController.swift; sourceTree = "<group>"; };
+		0FADC73027BD67D300940BC3 /* CVDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CVDetail.storyboard; sourceTree = "<group>"; };
+		0FADC73427BD688500940BC3 /* CVImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVImageCell.swift; sourceTree = "<group>"; };
+		0FADC73627BD719800940BC3 /* CVInformationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVInformationCell.swift; sourceTree = "<group>"; };
+		0FADC73827BD71B400940BC3 /* CVWorkExperienceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVWorkExperienceCell.swift; sourceTree = "<group>"; };
+		0FADC73A27BD71C600940BC3 /* CVEducationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVEducationCell.swift; sourceTree = "<group>"; };
+		0FADC73C27BD71DF00940BC3 /* CVProjectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVProjectCell.swift; sourceTree = "<group>"; };
+		0FADC73E27BD73BB00940BC3 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		0FADC74027BD73DB00940BC3 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		0FBB914927BAE9DB00532EB8 /* cvcreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cvcreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBB914C27BAE9DB00532EB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FBB914E27BAE9DB00532EB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +81,13 @@
 		0FBB917027BAE9DE00532EB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FD74A3227BC28D60052F6CD /* CVModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVModel.swift; sourceTree = "<group>"; };
 		0FD74A3527BC2B560052F6CD /* UserDefaultService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultService.swift; sourceTree = "<group>"; };
+		0FD74A3927BC310C0052F6CD /* CVList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CVList.storyboard; sourceTree = "<group>"; };
+		0FD74A3B27BC34990052F6CD /* CVListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVListViewController.swift; sourceTree = "<group>"; };
+		0FD74A3D27BC368E0052F6CD /* CVListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVListViewModel.swift; sourceTree = "<group>"; };
+		0FD74A3F27BC37B50052F6CD /* CVListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVListModel.swift; sourceTree = "<group>"; };
+		0FE2AB0B27BC398100FD202B /* CommonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonExtension.swift; sourceTree = "<group>"; };
+		0FE2AB0D27BC3BEF00FD202B /* CVListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVListCell.swift; sourceTree = "<group>"; };
+		0FE2AB0F27BC3E4600FD202B /* CVListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVListRouter.swift; sourceTree = "<group>"; };
 		53E4B8F6C3B2845345B15051 /* Pods_cvcreator_cvcreatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cvcreator_cvcreatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		552EC618F4CDEA72D6974FDB /* Pods-cvcreator-cvcreatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cvcreator-cvcreatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-cvcreator-cvcreatorUITests/Pods-cvcreator-cvcreatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		607BA9C574D892B2E7360D64 /* Pods_cvcreator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cvcreator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +127,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FADC73227BD683900940BC3 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				0FE2AB0D27BC3BEF00FD202B /* CVListCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		0FADC73327BD684200940BC3 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				0FADC73427BD688500940BC3 /* CVImageCell.swift */,
+				0FADC73627BD719800940BC3 /* CVInformationCell.swift */,
+				0FADC73827BD71B400940BC3 /* CVWorkExperienceCell.swift */,
+				0FADC73A27BD71C600940BC3 /* CVEducationCell.swift */,
+				0FADC73C27BD71DF00940BC3 /* CVProjectCell.swift */,
+				0FADC73E27BD73BB00940BC3 /* HeaderView.swift */,
+				0FADC74027BD73DB00940BC3 /* HeaderView.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		0FADC74227BD823800940BC3 /* CVDetail */ = {
+			isa = PBXGroup;
+			children = (
+				0FADC72E27BD67B500940BC3 /* CVDetailViewController.swift */,
+				0FADC73027BD67D300940BC3 /* CVDetail.storyboard */,
+			);
+			path = CVDetail;
+			sourceTree = "<group>";
+		};
+		0FADC74327BD827B00940BC3 /* CVEdit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CVEdit;
+			sourceTree = "<group>";
+		};
 		0FBB914027BAE9DB00532EB8 = {
 			isa = PBXGroup;
 			children = (
@@ -120,9 +190,10 @@
 		0FBB914B27BAE9DB00532EB8 /* cvcreator */ = {
 			isa = PBXGroup;
 			children = (
+				0FE2AB0A27BC397500FD202B /* Extension */,
 				0FD74A3427BC2B460052F6CD /* Service */,
 				0FD74A3127BC28C80052F6CD /* model */,
-				0FD74A3027BC28B00052F6CD /* cvdetail */,
+				0FD74A3027BC28B00052F6CD /* cvpreview */,
 				0FD74A2F27BC28900052F6CD /* cvlist */,
 				0FBB914C27BAE9DB00532EB8 /* AppDelegate.swift */,
 				0FBB914E27BAE9DB00532EB8 /* SceneDelegate.swift */,
@@ -156,15 +227,24 @@
 		0FD74A2F27BC28900052F6CD /* cvlist */ = {
 			isa = PBXGroup;
 			children = (
+				0FADC73227BD683900940BC3 /* cell */,
+				0FD74A3927BC310C0052F6CD /* CVList.storyboard */,
+				0FD74A3B27BC34990052F6CD /* CVListViewController.swift */,
+				0FD74A3D27BC368E0052F6CD /* CVListViewModel.swift */,
+				0FD74A3F27BC37B50052F6CD /* CVListModel.swift */,
+				0FE2AB0F27BC3E4600FD202B /* CVListRouter.swift */,
 			);
 			path = cvlist;
 			sourceTree = "<group>";
 		};
-		0FD74A3027BC28B00052F6CD /* cvdetail */ = {
+		0FD74A3027BC28B00052F6CD /* cvpreview */ = {
 			isa = PBXGroup;
 			children = (
+				0FADC74327BD827B00940BC3 /* CVEdit */,
+				0FADC74227BD823800940BC3 /* CVDetail */,
+				0FADC73327BD684200940BC3 /* cell */,
 			);
-			path = cvdetail;
+			path = cvpreview;
 			sourceTree = "<group>";
 		};
 		0FD74A3127BC28C80052F6CD /* model */ = {
@@ -181,6 +261,14 @@
 				0FD74A3527BC2B560052F6CD /* UserDefaultService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		0FE2AB0A27BC397500FD202B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0FE2AB0B27BC398100FD202B /* CommonExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		134C6888FDF409697F5D43CE /* Pods */ = {
@@ -315,7 +403,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FBB915927BAE9DE00532EB8 /* LaunchScreen.storyboard in Resources */,
+				0FD74A3A27BC310C0052F6CD /* CVList.storyboard in Resources */,
 				0FBB915627BAE9DE00532EB8 /* Assets.xcassets in Resources */,
+				0FADC74127BD73DB00940BC3 /* HeaderView.xib in Resources */,
+				0FADC73127BD67D300940BC3 /* CVDetail.storyboard in Resources */,
 				0FBB915427BAE9DB00532EB8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,9 +536,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FBB915127BAE9DB00532EB8 /* ViewController.swift in Sources */,
+				0FADC73F27BD73BB00940BC3 /* HeaderView.swift in Sources */,
+				0FD74A3C27BC34990052F6CD /* CVListViewController.swift in Sources */,
+				0FE2AB1027BC3E4600FD202B /* CVListRouter.swift in Sources */,
+				0FADC73927BD71B400940BC3 /* CVWorkExperienceCell.swift in Sources */,
+				0FD74A4027BC37B50052F6CD /* CVListModel.swift in Sources */,
+				0FADC73B27BD71C600940BC3 /* CVEducationCell.swift in Sources */,
 				0FBB914D27BAE9DB00532EB8 /* AppDelegate.swift in Sources */,
+				0FADC73D27BD71DF00940BC3 /* CVProjectCell.swift in Sources */,
 				0FD74A3327BC28D60052F6CD /* CVModel.swift in Sources */,
+				0FADC72F27BD67B500940BC3 /* CVDetailViewController.swift in Sources */,
+				0FADC73727BD719800940BC3 /* CVInformationCell.swift in Sources */,
 				0FD74A3627BC2B560052F6CD /* UserDefaultService.swift in Sources */,
+				0FADC73527BD688500940BC3 /* CVImageCell.swift in Sources */,
+				0FE2AB0E27BC3BEF00FD202B /* CVListCell.swift in Sources */,
+				0FD74A3E27BC368E0052F6CD /* CVListViewModel.swift in Sources */,
+				0FE2AB0C27BC398100FD202B /* CommonExtension.swift in Sources */,
 				0FBB914F27BAE9DB00532EB8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
