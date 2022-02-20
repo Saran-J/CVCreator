@@ -62,7 +62,7 @@
                                     <constraint firstAttribute="height" constant="103" id="vek-10-oOo"/>
                                 </constraints>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hnn-04-V71">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hnn-04-V71">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
@@ -103,8 +103,11 @@
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="hnn-04-V71" secondAttribute="trailing" id="tZ5-9U-9rJ"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="All CV" id="Bcj-dZ-qoY"/>
+                    <navigationItem key="navigationItem" title="All CV" id="Bcj-dZ-qoY">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="plus" catalog="system" id="CG3-E4-V0U"/>
+                    </navigationItem>
                     <connections>
+                        <outlet property="addButton" destination="CG3-E4-V0U" id="QeS-vu-Ho5"/>
                         <outlet property="createNewButton" destination="f0I-Xp-7pl" id="cQG-el-KFm"/>
                         <outlet property="tableView" destination="hnn-04-V71" id="aTI-Zg-vQq"/>
                     </connections>
@@ -115,6 +118,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

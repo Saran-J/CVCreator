@@ -93,7 +93,7 @@
                                             <constraint firstAttribute="height" constant="44" id="rfM-6Q-iV8"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
                                     </textField>
                                 </subviews>
                                 <constraints>

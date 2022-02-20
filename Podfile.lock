@@ -1,5 +1,6 @@
 PODS:
   - IQKeyboardManagerSwift (6.5.6)
+  - PDFGenerator (3.1.0)
   - RxCocoa (6.2.0):
     - RxRelay (= 6.2.0)
     - RxSwift (= 6.2.0)
@@ -10,6 +11,7 @@ PODS:
 
 DEPENDENCIES:
   - IQKeyboardManagerSwift
+  - PDFGenerator (~> 3.1)
   - RxCocoa
   - RxSwift
   - SkyFloatingLabelTextField
@@ -17,6 +19,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - IQKeyboardManagerSwift
+    - PDFGenerator
     - RxCocoa
     - RxRelay
     - RxSwift
@@ -24,11 +27,12 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  PDFGenerator: 17d6bc525db0a3fcd156fbf00f9d1b8d5cc75d1e
   RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
   RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
   RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
   SkyFloatingLabelTextField: 79ddc40e4ad59707fedbb48d605417aee48bb78a
 
-PODFILE CHECKSUM: f3fa8a1b8cc26c89c3403653543d56570188e6c4
+PODFILE CHECKSUM: a68a4010a9d92e6d226013591155eb237f384ced
 
 COCOAPODS: 1.10.1

@@ -34,11 +34,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Detail" id="Vba-cn-LCe">
-                        <barButtonItem key="rightBarButtonItem" title="Save" id="uvL-KV-sQ9">
-                            <connections>
-                                <action selector="onSave" destination="Y6W-OH-hqX" id="GYd-TT-XVy"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Save" id="uvL-KV-sQ9">
+                                <connections>
+                                    <action selector="onSave" destination="Y6W-OH-hqX" id="GYd-TT-XVy"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Item" image="newspaper" catalog="system" id="nSH-Pp-hLj">
+                                <connections>
+                                    <action selector="onExport" destination="Y6W-OH-hqX" id="KbJ-V6-ttP"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
@@ -50,4 +57,7 @@
             <point key="canvasLocation" x="53.623188405797109" y="93.75"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="newspaper" catalog="system" width="128" height="108"/>
+    </resources>
 </document>

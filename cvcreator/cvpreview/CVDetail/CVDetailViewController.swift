@@ -1,5 +1,6 @@
 import UIKit
 import RxSwift
+import PDFGenerator
 class CVDetailViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
@@ -57,6 +58,31 @@ class CVDetailViewController: UIViewController {
     @IBAction func onSave() {
         guard let model = cvModel else { return }
         viewModel.saveCV(model: model)
+    }
+    
+    @IBAction func onExport() {
+//        generatePDF()
+    }
+    
+    func generatePDF() {
+        let v1 = self.tableView ?? UITableView()
+        let dst = URL(fileURLWithPath: NSTemporaryDirectory().appending("sample1.pdf"))
+        // outputs as Data
+        do {
+            let data = try PDFGenerator.generated(by: [v1])
+            try data.write(to: dst, options: .atomic)
+        } catch (let error) {
+            print(error)
+        }
+
+        // writes to Disk directly.
+        do {
+            try PDFGenerator.generate([v1], to: dst)
+        } catch (let error) {
+            print(error)
+        }
+        
+        router.presentPDF()
     }
 }
 

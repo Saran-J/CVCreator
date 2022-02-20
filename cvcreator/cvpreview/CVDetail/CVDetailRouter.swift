@@ -50,4 +50,9 @@ class CVDetailRouter {
         vc.setupCallback(viewController)
         viewController?.navigationController?.pushViewController(vc, animated: true)
     }
+    
+    func presentPDF() {
+        guard let vc = PDFPreviewViewController.initFromStoryboard() else { return }
+        viewController?.navigationController?.pushViewController(vc, animated: true)
+    }
 }

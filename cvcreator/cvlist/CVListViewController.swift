@@ -10,6 +10,7 @@ class CVListViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var createNewButton: UIButton!
+    @IBOutlet weak var addButton: UIBarButtonItem!
     let cellId = "CVCell"
     let viewModel = CVListViewModel()
     let disposeBag = DisposeBag()
@@ -44,7 +45,10 @@ class CVListViewController: UIViewController {
             },
             createNewButton.rx.tap.bind { [weak self] _ in
                 self?.router.routeToEditCV()
-            }
+            },
+            addButton.rx.tap.bind(onNext: { [weak self] _ in
+                self?.router.routeToEditCV()
+            })
         ])
     }
     

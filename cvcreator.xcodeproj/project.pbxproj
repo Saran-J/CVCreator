@@ -27,6 +27,8 @@
 		0FBB916F27BAE9DE00532EB8 /* cvcreatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBB916E27BAE9DE00532EB8 /* cvcreatorUITests.swift */; };
 		0FC4AAAE27C24B1900699D64 /* AlertsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC4AAAD27C24B1900699D64 /* AlertsBuilder.swift */; };
 		0FC4AAB027C260AE00699D64 /* CVDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC4AAAF27C260AE00699D64 /* CVDetailModel.swift */; };
+		0FC4AAB327C2922D00699D64 /* PDFPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC4AAB227C2922D00699D64 /* PDFPreviewViewController.swift */; };
+		0FC4AAB527C292B500699D64 /* PDFPreview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC4AAB427C292B500699D64 /* PDFPreview.storyboard */; };
 		0FD74A3327BC28D60052F6CD /* CVModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD74A3227BC28D60052F6CD /* CVModel.swift */; };
 		0FD74A3627BC2B560052F6CD /* UserDefaultService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD74A3527BC2B560052F6CD /* UserDefaultService.swift */; };
 		0FD74A3A27BC310C0052F6CD /* CVList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD74A3927BC310C0052F6CD /* CVList.storyboard */; };
@@ -116,6 +118,8 @@
 		0FBB917027BAE9DE00532EB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FC4AAAD27C24B1900699D64 /* AlertsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsBuilder.swift; sourceTree = "<group>"; };
 		0FC4AAAF27C260AE00699D64 /* CVDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVDetailModel.swift; sourceTree = "<group>"; };
+		0FC4AAB227C2922D00699D64 /* PDFPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFPreviewViewController.swift; sourceTree = "<group>"; };
+		0FC4AAB427C292B500699D64 /* PDFPreview.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PDFPreview.storyboard; sourceTree = "<group>"; };
 		0FD74A3227BC28D60052F6CD /* CVModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVModel.swift; sourceTree = "<group>"; };
 		0FD74A3527BC2B560052F6CD /* UserDefaultService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultService.swift; sourceTree = "<group>"; };
 		0FD74A3927BC310C0052F6CD /* CVList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CVList.storyboard; sourceTree = "<group>"; };
@@ -320,6 +324,15 @@
 			path = cvcreatorUITests;
 			sourceTree = "<group>";
 		};
+		0FC4AAB127C2920D00699D64 /* CVPDFPreview */ = {
+			isa = PBXGroup;
+			children = (
+				0FC4AAB227C2922D00699D64 /* PDFPreviewViewController.swift */,
+				0FC4AAB427C292B500699D64 /* PDFPreview.storyboard */,
+			);
+			path = CVPDFPreview;
+			sourceTree = "<group>";
+		};
 		0FD74A2F27BC28900052F6CD /* cvlist */ = {
 			isa = PBXGroup;
 			children = (
@@ -336,6 +349,7 @@
 		0FD74A3027BC28B00052F6CD /* cvpreview */ = {
 			isa = PBXGroup;
 			children = (
+				0FC4AAB127C2920D00699D64 /* CVPDFPreview */,
 				0FADC74327BD827B00940BC3 /* CVEdit */,
 				0FADC74227BD823800940BC3 /* CVDetail */,
 				0FADC73327BD684200940BC3 /* cell */,
@@ -614,6 +628,7 @@
 				0FADC74827BD82EF00940BC3 /* CVEditInformation.storyboard in Resources */,
 				0FE98E0827C0D57800943591 /* CVPersonalInfo.storyboard in Resources */,
 				0FBB915927BAE9DE00532EB8 /* LaunchScreen.storyboard in Resources */,
+				0FC4AAB527C292B500699D64 /* PDFPreview.storyboard in Resources */,
 				0FE98E3327C0F26200943591 /* CVEducation.storyboard in Resources */,
 				0FE98E3127C0F25B00943591 /* CVEducationEdit.storyboard in Resources */,
 				0FD74A3A27BC310C0052F6CD /* CVList.storyboard in Resources */,
@@ -760,6 +775,7 @@
 				0FE98E0D27C0D73300943591 /* CVWorkExpViewController.swift in Sources */,
 				0FADC73F27BD73BB00940BC3 /* HeaderView.swift in Sources */,
 				0FC4AAAE27C24B1900699D64 /* AlertsBuilder.swift in Sources */,
+				0FC4AAB327C2922D00699D64 /* PDFPreviewViewController.swift in Sources */,
 				0FD74A3C27BC34990052F6CD /* CVListViewController.swift in Sources */,
 				0FE98E6627C1962A00943591 /* CVProjectRouter.swift in Sources */,
 				0FE2AB1027BC3E4600FD202B /* CVListRouter.swift in Sources */,
