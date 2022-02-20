@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Edit-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="CVEditInformationViewController" customModule="cvcreator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sie-xe-VNk">
+                                <rect key="frame" x="204" y="60" width="6" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHC-hO-bB2">
+                                <rect key="frame" x="364" y="55.5" width="34" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="GRH-po-LvS"/>
+                                    <constraint firstAttribute="width" constant="34" id="YUf-Ab-Wsp"/>
+                                </constraints>
+                                <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="onSave" destination="Y6W-OH-hqX" eventType="touchUpInside" id="iXm-JA-D69"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gMb-1S-AgI">
+                                <rect key="frame" x="16" y="97" width="382" height="749"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="gMb-1S-AgI" secondAttribute="bottom" constant="16" id="1ZW-c8-2CM"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="XHC-hO-bB2" secondAttribute="trailing" constant="16" id="45G-u6-pCo"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="gMb-1S-AgI" secondAttribute="trailing" constant="16" id="BBc-dL-eaN"/>
+                            <constraint firstItem="sie-xe-VNk" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="GRC-dW-vcL"/>
+                            <constraint firstItem="XHC-hO-bB2" firstAttribute="centerY" secondItem="sie-xe-VNk" secondAttribute="centerY" id="HNz-pQ-usv"/>
+                            <constraint firstItem="sie-xe-VNk" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="16" id="Tfn-5m-glW"/>
+                            <constraint firstItem="gMb-1S-AgI" firstAttribute="top" secondItem="sie-xe-VNk" secondAttribute="bottom" constant="16" id="U7b-pT-bGn"/>
+                            <constraint firstItem="gMb-1S-AgI" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="bGr-Q9-LFL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Edit" id="vn0-oU-DwF">
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="s06-nZ-HOl"/>
+                    </navigationItem>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="headerLabel" destination="sie-xe-VNk" id="MAB-nN-nbr"/>
+                        <outlet property="saveButton" destination="XHC-hO-bB2" id="vZd-IN-NYk"/>
+                        <outlet property="textfield" destination="gMb-1S-AgI" id="d93-bF-3Dg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53.623188405797109" y="93.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

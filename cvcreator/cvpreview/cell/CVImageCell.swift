@@ -1,13 +1,8 @@
-//
-//  CVImageCell.swift
-//  cvcreator
-//
-//  Created by KTB_User on 17/2/2565 BE.
-//
-
 import UIKit
 
 class CVImageCell: UITableViewCell {
+    
+    static let identifier = "CVImageCell"
 
     @IBOutlet weak var imageProfile: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
@@ -19,6 +14,17 @@ class CVImageCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
+    }
+    
+    func setData(name: String, email: String, phone: String, image: String?) {
+        nameLabel.text = "Name: \(name)"
+        emailLabel.text = "Email: \(email)"
+        phoneLabel.text = "Phone: \(phone)"
+        if let image = image {
+            let data = Data(base64Encoded: image) ?? Data()
+            let image = UIImage(data: data)
+            imageProfile.image = image
+        }
     }
 
 }

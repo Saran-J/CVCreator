@@ -1,6 +1,11 @@
 import UIKit
 import RxSwift
 import RxCocoa
+
+protocol CVListCallback: AnyObject {
+    func didSaveNewCV()
+}
+
 class CVListViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
@@ -30,11 +35,15 @@ class CVListViewController: UIViewController {
             ) { (row, model, cell) in
                 cell.name.text = model.name
             },
+            tableView.rx.itemSelected.bind(onNext: { [weak self] indexPath in
+                let model = self?.viewModel.getExistingCV(index: indexPath.row)
+                self?.router.routeToEditCV(model: model)
+            }),
             viewModel.output.onError.drive { [weak self] error in
                 self?.handleError(error)
             },
             createNewButton.rx.tap.bind { [weak self] _ in
-                self?.router.routeToCreateNewCV()
+                self?.router.routeToEditCV()
             }
         ])
     }
@@ -44,5 +53,11 @@ class CVListViewController: UIViewController {
         case .empty:
             tableView.isHidden = true
         }
+    }
+}
+
+extension CVListViewController: CVListCallback {
+    func didSaveNewCV() {
+        viewModel.getCVList()
     }
 }

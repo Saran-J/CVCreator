@@ -1,10 +1,12 @@
 import UIKit
 
-class HeaderView: UIView {
-    @IBOutlet weak var title: UILabel!
-    @IBOutlet weak var editButton: UIButton!
+class HeaderView: UITableViewHeaderFooterView {
+    static let identifier = "HeaderView"
     
-    override class func awakeFromNib() {
-        super.awakeFromNib()
+    var onEditButton: (() -> ()) = {}
+    @IBOutlet weak var title: UILabel!
+    
+    @IBAction func onEdit() {
+        self.onEditButton()
     }
 }

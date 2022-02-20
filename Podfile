@@ -8,6 +8,7 @@ target 'cvcreator' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'SkyFloatingLabelTextField'
+  pod 'IQKeyboardManagerSwift'
 
   # Pods for cvcreator
 

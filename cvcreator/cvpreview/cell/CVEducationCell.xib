@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CVEduCell" rowHeight="168" id="nJY-XJ-hPI" customClass="CVEducationCell" customModule="cvcreator" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="168"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nJY-XJ-hPI" id="vv3-Um-2lb">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="168"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="PJI-es-FUo">
+                        <rect key="frame" x="16" y="16" width="382" height="136"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Class" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcY-ZP-2Lg">
+                                <rect key="frame" x="0.0" y="0.0" width="382" height="40"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Passing Year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EB7-Mm-aHl">
+                                <rect key="frame" x="0.0" y="48" width="382" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GPA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c7K-WF-g2N">
+                                <rect key="frame" x="0.0" y="96" width="382" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="PJI-es-FUo" secondAttribute="trailing" constant="16" id="Hl5-ij-Reo"/>
+                    <constraint firstItem="PJI-es-FUo" firstAttribute="top" secondItem="vv3-Um-2lb" secondAttribute="top" constant="16" id="aDT-yu-bVc"/>
+                    <constraint firstAttribute="bottom" secondItem="PJI-es-FUo" secondAttribute="bottom" constant="16" id="gWA-v3-XY3"/>
+                    <constraint firstItem="PJI-es-FUo" firstAttribute="leading" secondItem="vv3-Um-2lb" secondAttribute="leading" constant="16" id="upv-Yi-cjr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="classLabel" destination="dcY-ZP-2Lg" id="nrw-8A-uaM"/>
+                <outlet property="gpaLabel" destination="c7K-WF-g2N" id="aEz-Y4-8Z0"/>
+                <outlet property="passingYearLabel" destination="EB7-Mm-aHl" id="EyD-ag-S4P"/>
+            </connections>
+            <point key="canvasLocation" x="84" y="109"/>
+        </tableViewCell>
+    </objects>
+</document>

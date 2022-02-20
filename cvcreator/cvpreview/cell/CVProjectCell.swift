@@ -1,14 +1,8 @@
-//
-//  CVProjectCell.swift
-//  cvcreator
-//
-//  Created by KTB_User on 17/2/2565 BE.
-//
-
 import UIKit
 
 class CVProjectCell: UITableViewCell {
 
+    static let identifier = "CVProjectCell"
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var sizeLabel: UILabel!
     @IBOutlet weak var summaryLabel: UILabel!
@@ -16,13 +10,18 @@ class CVProjectCell: UITableViewCell {
     @IBOutlet weak var roleLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    }
+    
+    func setData(data: Project) {
+        nameLabel.text = "Name: \(data.name)"
+        sizeLabel.text = "Size: \(String(data.size))"
+        summaryLabel.text = "Summary: \(data.summary)"
+        techLabel.text = "Technology: \(data.techStack)"
+        roleLabel.text = "Role: \(data.role)"
     }
 
 }

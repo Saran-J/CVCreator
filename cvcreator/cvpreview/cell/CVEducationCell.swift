@@ -1,14 +1,8 @@
-//
-//  CVEducationCell.swift
-//  cvcreator
-//
-//  Created by KTB_User on 17/2/2565 BE.
-//
-
 import UIKit
 
 class CVEducationCell: UITableViewCell {
 
+    static let identifier = "CVEduCell"
     @IBOutlet weak var classLabel: UILabel!
     @IBOutlet weak var passingYearLabel: UILabel!
     @IBOutlet weak var gpaLabel: UILabel!
@@ -21,6 +15,12 @@ class CVEducationCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+    }
+    
+    func setData(data: Education) {
+        classLabel.text = "Class: \(data.eduClass)"
+        passingYearLabel.text = "Passing Year: \(data.passingYear)"
+        gpaLabel.text = "GPA: \(data.gpa)"
     }
 
 }

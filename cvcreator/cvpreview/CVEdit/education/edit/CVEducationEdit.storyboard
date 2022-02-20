@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VPD-rS-uuc">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Edit-->
+        <scene sceneID="Vbh-Wi-nkZ">
+            <objects>
+                <viewController id="VPD-rS-uuc" customClass="CVEducationEditViewController" customModule="cvcreator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cqy-U7-8PB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Education Edit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjF-sc-Hdc">
+                                <rect key="frame" x="148.5" y="60" width="117.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWN-qt-Mw9">
+                                <rect key="frame" x="364" y="55.5" width="34" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="34" id="DID-FI-tVx"/>
+                                    <constraint firstAttribute="height" constant="30" id="Wl7-V4-fkq"/>
+                                </constraints>
+                                <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="onSave" destination="VPD-rS-uuc" eventType="touchUpInside" id="Zyc-o9-OzQ"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qiq-0Y-ggl">
+                                <rect key="frame" x="16" y="117.5" width="382" height="280"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="Class" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gzk-fK-z6b">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fUt-uT-x9A">
+                                        <rect key="frame" x="0.0" y="39" width="382" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="8ZU-0D-uoA"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Passing year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="goJ-TH-Wxu">
+                                        <rect key="frame" x="0.0" y="100" width="382" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aAQ-gl-XZG">
+                                        <rect key="frame" x="0.0" y="137.5" width="382" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="DyZ-9S-TYp"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GPA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mrs-p1-qhv">
+                                        <rect key="frame" x="0.0" y="198.5" width="382" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K3a-Rc-yXz">
+                                        <rect key="frame" x="0.0" y="236" width="382" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="LVf-3k-cOR"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="280" id="3vc-Bp-6AY"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="g4C-Fy-5g7"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="tjF-sc-Hdc" firstAttribute="top" secondItem="g4C-Fy-5g7" secondAttribute="top" constant="16" id="2lY-pA-zIV"/>
+                            <constraint firstItem="tjF-sc-Hdc" firstAttribute="centerX" secondItem="g4C-Fy-5g7" secondAttribute="centerX" id="UaE-a3-lfP"/>
+                            <constraint firstItem="Qiq-0Y-ggl" firstAttribute="leading" secondItem="g4C-Fy-5g7" secondAttribute="leading" constant="16" id="UjB-CB-7aU"/>
+                            <constraint firstItem="Qiq-0Y-ggl" firstAttribute="top" secondItem="RWN-qt-Mw9" secondAttribute="bottom" constant="32" id="eKe-Gu-Ml5"/>
+                            <constraint firstItem="g4C-Fy-5g7" firstAttribute="trailing" secondItem="RWN-qt-Mw9" secondAttribute="trailing" constant="16" id="kxx-KS-gKr"/>
+                            <constraint firstItem="g4C-Fy-5g7" firstAttribute="trailing" secondItem="Qiq-0Y-ggl" secondAttribute="trailing" constant="16" id="tDJ-ib-ZNi"/>
+                            <constraint firstItem="RWN-qt-Mw9" firstAttribute="centerY" secondItem="tjF-sc-Hdc" secondAttribute="centerY" id="zPd-FM-o37"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Edit" id="GVp-Zx-uxZ">
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="Fhs-BH-ZCO"/>
+                    </navigationItem>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="classTextField" destination="fUt-uT-x9A" id="aHU-xY-xJ2"/>
+                        <outlet property="gpaTextField" destination="K3a-Rc-yXz" id="KDG-fJ-2Le"/>
+                        <outlet property="passingYearTextField" destination="aAQ-gl-XZG" id="08E-87-5qr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c3O-BC-gn8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53.623188405797109" y="93.75"/>
+        </scene>
+    </scenes>
+</document>

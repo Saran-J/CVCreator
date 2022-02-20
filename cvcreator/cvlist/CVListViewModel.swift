@@ -22,4 +22,9 @@ class CVListViewModel {
         }
         cvListSubject.onNext(list)
     }
+    
+    func getExistingCV(index: Int) -> CVModel{
+        let list = UserDefaultService.getCVList()
+        return list[index]
+    }
 }
